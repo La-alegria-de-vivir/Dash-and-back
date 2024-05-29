@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 });
 
 const ReportPDF = ({ reservations, startDate, endDate }) => {
-  const logoUrl = '../../public/images/logo.png';
+  const logoUrl = '/images/logo.png';
 
   const totalComensales = reservations.reduce((total, reservation) => total + reservation.people, 0);
 
