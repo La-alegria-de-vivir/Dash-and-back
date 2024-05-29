@@ -33,10 +33,10 @@ app.use('/api/auth', authRoutes);
 app.use('/api/menu', menuRoutes);
 app.use("/api/reserve", reserveRoutes);
 
-app.use(express.static(path.join(__dirname, '/dash/dist')));
+app.use(express.static(path.join(__dirname, '/Dashboard/dist')));
 
 app.get('*', (req, res) =>{
-    res.sendFile(path.join(__dirname, 'dash', 'dist', 'index.html'));
+    res.sendFile(path.join(__dirname, 'Dashboard', 'dist', 'index.html'));
 });
 
 app.use((err, req, res, next) => {
