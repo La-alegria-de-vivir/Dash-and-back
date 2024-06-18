@@ -1,4 +1,4 @@
-# Front clientes La alegría d evivir
+# Front Admin-Dashboard La alegría de vivir
 
 Proyecto innovador del restaurante **Alegría de vivir**, enfocado en realizar un dashboard para el dueño del restaurante. Se puede ver una dashboard con una concordancia de colores en relación al logotipo del restaurante. Teniendo en cuenta algunos colores del cuadro ```La alegría de vivir```.
 
